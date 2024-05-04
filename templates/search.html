@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="box">
+	<h1>Search</h1>
+    <form action="{{ url_for('search') }}" method="post">
+    	<input type="text" name="name" placeholder="Name" required="required" />
+        <input type="text" name="lastName" placeholder="Last name" required="required" />
+        <input type="text" name="id" placeholder="Id" required="required" />
+        <button type="submit" class="btn btn-primary btn-block btn-large">Sign all.</button>
+    </form>
+</div>
+
+{% endblock %}
