@@ -3,8 +3,17 @@ import time
 from datetime import datetime
 
 import pandas as pd
+<<<<<<< HEAD
 
 from user import User
+=======
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as ec
+
+from user.User import User
+>>>>>>> 7b6708ffd4ca3958b241bd128bc501dce1928c59
 
 date_pattern = r'^\d{2}/\d{2}/\d{4}$'
 
